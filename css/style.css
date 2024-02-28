@@ -3,7 +3,9 @@
 body {
   font-family: "poppins", sans-serif;
   color: #101010;
-  background-color: #ffffff;
+  background-color: #fffff;
+  background-image: url("/images/Teste1.png"); /* Substitua 'pintas-amarelas.png' pelo caminho da sua imagem */
+  background-size: cover; /* Para cobrir todo o fundo */
 }
 
 .layout_padding {
