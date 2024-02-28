@@ -233,12 +233,27 @@ a:focus {
 
 /*end header section*/
 .slider_section .slider_container {
-  color: #fefefe;
-  background-color: #000000;
-  background-color: #d49625;
+  position: relative; /* Adiciona posição relativa ao contêiner pai */
+  color: #fff;
   padding: 25px;
   border-radius: 0 0 15px 15px;
 }
+
+.slider_section .slider_container::before {
+  content: ""; /* Adiciona conteúdo ao pseudoelemento */
+  position: absolute; /* Posição absoluta em relação ao contêiner pai */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("/images/p10.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Define a opacidade para a imagem de fundo */
+  border-radius: 0 0 15px 15px;
+  z-index: -1; /* Coloca o pseudoelemento atrás do conteúdo do contêiner */
+}
+
 
 .slider_section .row {
   -webkit-box-align: center;
@@ -275,7 +290,7 @@ a:focus {
   display: inline-block;
   padding: 10px 40px;
   background-color: #000;
-  color: #ffffff;
+  color: #d49625;
   border: 1px solid #000;
   border-radius: 5px;
   -webkit-transition: all .3s;
