@@ -13,9 +13,9 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"%3E%3Ccircle cx="4" cy="4" r="4" fill="%23d49625" /%3E%3C/svg%3E');
+  background-image: url('/images/fundo2.svg');
   z-index: -1;
-  opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+  opacity: 0.9; /* Ajuste a opacidade conforme necessário */
 }
 
 .layout_padding {
@@ -60,7 +60,7 @@ body::before {
 }
 
 .heading_container h2 span {
-  color: #d49625;
+  color: #ffff00;
 }
 
 .heading_container.heading_center {
@@ -73,6 +73,7 @@ body::before {
 /*header section*/
 .hero_area {
   padding: 0 45px;
+  height: auto;
 }
 
 .hero_area.sub_pages {
@@ -81,7 +82,8 @@ body::before {
 
 #navbarSupportedContent {
   width: 100%;
-  background-color: #f9ece6;
+  background-color: #ffff00;
+  color: #000;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -258,7 +260,7 @@ a:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("/images/p10.png");
+  background-image: url("/images/painel.svg");
   background-size: cover;
   background-position: center;
   opacity: 0.9; /* Define a opacidade para a imagem de fundo */
@@ -302,7 +304,7 @@ a:focus {
   display: inline-block;
   padding: 10px 40px;
   background-color: #000;
-  color: #d49625;
+  color: #ffff00;
   border: 1px solid #000;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -391,7 +393,7 @@ a:focus {
 }
 
 .shop_section .box .detail-box h6 span {
-  color: #d49625;
+  color: #ffff00;
 }
 
 .shop_section .box .new {
@@ -427,9 +429,9 @@ a:focus {
 .shop_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #d49625;
+  background-color: #ffff00;
   color: #ffffff;
-  border: 1px solid #d49625;
+  border: 1px solid #ffff00;
   border-radius: 5px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -437,7 +439,7 @@ a:focus {
 
 .shop_section .btn-box a:hover {
   background-color: transparent;
-  color: #d49625;
+  color: #ffff00;
 }
 
 .saving_section {
@@ -492,9 +494,9 @@ a:focus {
 .saving_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #d49625;
+  background-color: #ffff00;
   color: #ffffff;
-  border: 1px solid #d49625;
+  border: 1px solid #ffff00;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -502,7 +504,7 @@ a:focus {
 
 .saving_section .detail-box .btn-box .btn1:hover {
   background-color: transparent;
-  color: #d49625;
+  color: #ffff00;
 }
 
 .saving_section .detail-box .btn-box .btn2 {
@@ -545,7 +547,7 @@ a:focus {
 }
 
 .gift_section .box {
-  background-color: #d49625;
+  background-color: #ffff00;
   border-radius: 15px;
   color: #ffffff;
 }
@@ -677,9 +679,9 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #d49625;
+  background-color: #ffff00;
   color: #ffffff;
-  border: 1px solid #d49625;
+  border: 1px solid #ffff00;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -690,7 +692,7 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #d49625;
+  color: #ffff00;
 }
 
 .contact_section .map_container {
@@ -724,7 +726,7 @@ a:focus {
 
 .client_section .box .client_info .client_name h5 {
   font-weight: 600;
-  color: #d49625;
+  color: #ffff00;
 }
 
 .client_section .box .client_info .client_name h6 {
@@ -746,7 +748,7 @@ a:focus {
 .client_section .carousel-control-next {
   width: 45px;
   height: 125px;
-  background-color: #d49625;
+  background-color: #ffff00;
   opacity: 1;
   font-size: 28px;
   font-weight: bold;
@@ -808,7 +810,7 @@ a:focus {
   outline: none;
   border: none;
   color: #ffffff;
-  background: #d49625;
+  background: #ffff00;
   margin-top: 15px;
   text-transform: uppercase;
 }
