@@ -18,6 +18,19 @@ body::before {
   opacity: 0.3; /* Ajuste a opacidade conforme necessário */
 }
 
+.card-img-top{
+  height: 200px;
+}
+
+.btn-new {
+  font-size: small;
+position: absolute;
+font-weight: 700;
+background-color: #fff;
+margin: 3px;
+padding: 5px;
+}
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
